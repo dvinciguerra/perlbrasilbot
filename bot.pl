@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
-use utf8;
 use strict;
 use warnings;
 
+use utf8::all;
 use JSON::PP;    # apenas pra eliminar mensagens de erro
 use WWW::Telegram::BotAPI;
 use Sys::Syslog;

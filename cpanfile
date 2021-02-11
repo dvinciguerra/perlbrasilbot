@@ -1,3 +1,4 @@
+requires 'utf8::all';
 requires 'JSON';
 requires 'WWW::Telegram::BotAPI';
 requires 'Sys::Syslog';
